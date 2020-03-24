@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="OnboardingViewController" customModule="onboarding_travel_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imTravel1" translatesAutoresizingMaskIntoConstraints="NO" id="sBj-1B-puZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o4q-42-FOi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="lHg-wF-6r1">
+                                        <rect key="frame" x="187.5" y="835" width="39" height="37"/>
+                                    </pageControl>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAy-n8-qlQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="835"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hnD-Op-zPF">
+                                                <rect key="frame" x="36" y="372" width="342" height="91.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel Your Way" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUN-bL-NiX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="342" height="31.5"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="24"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore thousands of hotels and find the perfect accomodation!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x49-e2-ArW">
+                                                        <rect key="frame" x="0.0" y="39.5" width="342" height="52"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="hnD-Op-zPF" firstAttribute="centerY" secondItem="wAy-n8-qlQ" secondAttribute="centerY" id="CHH-PR-Hvn"/>
+                                            <constraint firstAttribute="trailing" secondItem="hnD-Op-zPF" secondAttribute="trailing" constant="36" id="Mka-El-jzf"/>
+                                            <constraint firstItem="hnD-Op-zPF" firstAttribute="centerX" secondItem="wAy-n8-qlQ" secondAttribute="centerX" id="YKd-Su-BkR"/>
+                                            <constraint firstItem="hnD-Op-zPF" firstAttribute="leading" secondItem="wAy-n8-qlQ" secondAttribute="leading" constant="36" id="YM8-VA-pW3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="lHg-wF-6r1" firstAttribute="centerX" secondItem="o4q-42-FOi" secondAttribute="centerX" id="4om-QS-rXr"/>
+                                    <constraint firstAttribute="bottom" secondItem="lHg-wF-6r1" secondAttribute="bottom" constant="24" id="8WF-hA-ogI"/>
+                                    <constraint firstItem="wAy-n8-qlQ" firstAttribute="top" secondItem="o4q-42-FOi" secondAttribute="top" id="Ay2-5d-2XI"/>
+                                    <constraint firstItem="wAy-n8-qlQ" firstAttribute="leading" secondItem="o4q-42-FOi" secondAttribute="leading" id="I8E-s0-V1R"/>
+                                    <constraint firstItem="lHg-wF-6r1" firstAttribute="top" secondItem="wAy-n8-qlQ" secondAttribute="bottom" id="afa-v3-cmk"/>
+                                    <constraint firstAttribute="trailing" secondItem="wAy-n8-qlQ" secondAttribute="trailing" id="uul-uN-el2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o4q-42-FOi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dav-OU-8cf"/>
+                            <constraint firstItem="sBj-1B-puZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="E0r-bw-WhI"/>
+                            <constraint firstAttribute="bottom" secondItem="sBj-1B-puZ" secondAttribute="bottom" id="JRt-Os-mOW"/>
+                            <constraint firstItem="sBj-1B-puZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h6q-Ob-7ox"/>
+                            <constraint firstAttribute="bottom" secondItem="o4q-42-FOi" secondAttribute="bottom" id="hBT-XW-ABh"/>
+                            <constraint firstItem="o4q-42-FOi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="j3i-ZL-SMj"/>
+                            <constraint firstItem="o4q-42-FOi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lfm-cn-cgP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sBj-1B-puZ" secondAttribute="trailing" id="wiY-ev-WjZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgImageView" destination="sBj-1B-puZ" id="pnV-d0-uNQ"/>
+                        <outlet property="darkView" destination="o4q-42-FOi" id="SUQ-iO-emr"/>
+                        <outlet property="detailLabel" destination="x49-e2-ArW" id="kZZ-B9-BY5"/>
+                        <outlet property="pageControl" destination="lHg-wF-6r1" id="VFu-pG-ppz"/>
+                        <outlet property="titleLabel" destination="hUN-bL-NiX" id="qIv-HN-QXj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jjB-OJ-pBn">
+            <objects>
+                <viewController storyboardIdentifier="MainAppViewController" id="Nne-ox-fKw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ph3-xr-ClD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcI-Jz-5uz">
+                                <rect key="frame" x="170" y="437.5" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PcI-Jz-5uz" firstAttribute="centerY" secondItem="Ph3-xr-ClD" secondAttribute="centerY" id="IEB-uT-ohZ"/>
+                            <constraint firstItem="PcI-Jz-5uz" firstAttribute="centerX" secondItem="Ph3-xr-ClD" secondAttribute="centerX" id="cHk-q7-jdY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Se-eT-U2k"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Raz-Xy-x7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="imTravel1" width="1609" height="2000"/>
+    </resources>
+</document>

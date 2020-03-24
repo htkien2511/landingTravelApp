@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BCC32B2242A6E7000E6FE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC32B1242A6E7000E6FE82 /* AppDelegate.swift */; };
+		7BCC32B4242A6E7000E6FE82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC32B3242A6E7000E6FE82 /* SceneDelegate.swift */; };
+		7BCC32B6242A6E7000E6FE82 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC32B5242A6E7000E6FE82 /* OnboardingViewController.swift */; };
+		7BCC32B9242A6E7000E6FE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCC32B7242A6E7000E6FE82 /* Main.storyboard */; };
+		7BCC32BB242A6E7300E6FE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCC32BA242A6E7300E6FE82 /* Assets.xcassets */; };
+		7BCC32BE242A6E7300E6FE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCC32BC242A6E7300E6FE82 /* LaunchScreen.storyboard */; };
+		7BCC32C7242A8B7F00E6FE82 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC32C6242A8B7F00E6FE82 /* OnboardingItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BCC32AE242A6E7000E6FE82 /* onboarding-travel-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onboarding-travel-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCC32B1242A6E7000E6FE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BCC32B3242A6E7000E6FE82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7BCC32B5242A6E7000E6FE82 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		7BCC32B8242A6E7000E6FE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BCC32BA242A6E7300E6FE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCC32BD242A6E7300E6FE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BCC32BF242A6E7300E6FE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "onboarding-travel-app/Resources/Info.plist"; sourceTree = SOURCE_ROOT; };
+		7BCC32C6242A8B7F00E6FE82 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BCC32AB242A6E7000E6FE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BCC32A5242A6E7000E6FE82 = {
+			isa = PBXGroup;
+			children = (
+				7BCC32B0242A6E7000E6FE82 /* onboarding-travel-app */,
+				7BCC32AF242A6E7000E6FE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BCC32AF242A6E7000E6FE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC32AE242A6E7000E6FE82 /* onboarding-travel-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BCC32B0242A6E7000E6FE82 /* onboarding-travel-app */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC32C8242A8C4C00E6FE82 /* Controllers */,
+				7BCC32C5242A8B6E00E6FE82 /* Models */,
+				7BCC32CA242A8C7B00E6FE82 /* Resources */,
+				7BCC32C9242A8C6E00E6FE82 /* Views */,
+			);
+			path = "onboarding-travel-app";
+			sourceTree = "<group>";
+		};
+		7BCC32C5242A8B6E00E6FE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC32C6242A8B7F00E6FE82 /* OnboardingItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7BCC32C8242A8C4C00E6FE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC32B5242A6E7000E6FE82 /* OnboardingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7BCC32C9242A8C6E00E6FE82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC32BC242A6E7300E6FE82 /* LaunchScreen.storyboard */,
+				7BCC32B7242A6E7000E6FE82 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BCC32CA242A8C7B00E6FE82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC32BF242A6E7300E6FE82 /* Info.plist */,
+				7BCC32B3242A6E7000E6FE82 /* SceneDelegate.swift */,
+				7BCC32B1242A6E7000E6FE82 /* AppDelegate.swift */,
+				7BCC32BA242A6E7300E6FE82 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BCC32AD242A6E7000E6FE82 /* onboarding-travel-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCC32C2242A6E7300E6FE82 /* Build configuration list for PBXNativeTarget "onboarding-travel-app" */;
+			buildPhases = (
+				7BCC32AA242A6E7000E6FE82 /* Sources */,
+				7BCC32AB242A6E7000E6FE82 /* Frameworks */,
+				7BCC32AC242A6E7000E6FE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "onboarding-travel-app";
+			productName = "onboarding-travel-app";
+			productReference = 7BCC32AE242A6E7000E6FE82 /* onboarding-travel-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCC32A6242A6E7000E6FE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hoang Trong Kien";
+				TargetAttributes = {
+					7BCC32AD242A6E7000E6FE82 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BCC32A9242A6E7000E6FE82 /* Build configuration list for PBXProject "onboarding-travel-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BCC32A5242A6E7000E6FE82;
+			productRefGroup = 7BCC32AF242A6E7000E6FE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BCC32AD242A6E7000E6FE82 /* onboarding-travel-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BCC32AC242A6E7000E6FE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCC32BE242A6E7300E6FE82 /* LaunchScreen.storyboard in Resources */,
+				7BCC32BB242A6E7300E6FE82 /* Assets.xcassets in Resources */,
+				7BCC32B9242A6E7000E6FE82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BCC32AA242A6E7000E6FE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCC32B6242A6E7000E6FE82 /* OnboardingViewController.swift in Sources */,
+				7BCC32C7242A8B7F00E6FE82 /* OnboardingItem.swift in Sources */,
+				7BCC32B2242A6E7000E6FE82 /* AppDelegate.swift in Sources */,
+				7BCC32B4242A6E7000E6FE82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BCC32B7242A6E7000E6FE82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCC32B8242A6E7000E6FE82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCC32BC242A6E7300E6FE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCC32BD242A6E7300E6FE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BCC32C0242A6E7300E6FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BCC32C1242A6E7300E6FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BCC32C3242A6E7300E6FE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "onboarding-travel-app/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htkien.onboarding-travel-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BCC32C4242A6E7300E6FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "onboarding-travel-app/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htkien.onboarding-travel-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BCC32A9242A6E7000E6FE82 /* Build configuration list for PBXProject "onboarding-travel-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCC32C0242A6E7300E6FE82 /* Debug */,
+				7BCC32C1242A6E7300E6FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCC32C2242A6E7300E6FE82 /* Build configuration list for PBXNativeTarget "onboarding-travel-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCC32C3242A6E7300E6FE82 /* Debug */,
+				7BCC32C4242A6E7300E6FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCC32A6242A6E7000E6FE82 /* Project object */;
+}
